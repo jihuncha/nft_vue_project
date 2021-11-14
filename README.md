@@ -1,5 +1,9 @@
 # nft_project_sample
 
+## Link 
+https://jihuncha.github.io/nft_vue_project/
+
+
 ## Project setup
 ```
 npm install

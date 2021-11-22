@@ -1,6 +1,17 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+  <div class="main">
+    <div class="top_area">
+      <h2>안녕하삼</h2>
+        <ul class="footer_in_line">
+          <li>하이</li>
+          <li>하2</li>
+          <li>하3</li>
+          <li style="color: #000">Contact Us</li>
+      </ul>
+
+
+    </div>
+    <!-- <h1>{{ msg }}</h1> -->
     <p>
       아이고야~
       <!-- <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>. -->
@@ -53,5 +64,11 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.top_area {
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 </style>
